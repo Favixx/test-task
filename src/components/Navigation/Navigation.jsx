@@ -14,7 +14,7 @@ const Navigation = () => {
   const { theme } = useTheme();
   return (
     <header className="header">
-      <a href="#" className={`logo ${theme === "dark" && "dark-logo"}`}>
+      <a href="/" className={`logo ${theme === "dark" && "dark-logo"}`}>
         logotype
       </a>
       <nav>

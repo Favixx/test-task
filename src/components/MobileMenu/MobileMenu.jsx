@@ -49,7 +49,7 @@ const MobileMenu = () => {
       }`}
     >
       <div className="mobile-menu-top-part">
-        <a href="#" className={`logo ${theme === "dark" && "dark-logo"}`}>
+        <a href="/" className={`logo ${theme === "dark" && "dark-logo"}`}>
           logotype
         </a>
         <button className="close-menu" onClick={handleClose}>

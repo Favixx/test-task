@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.navigation-items {
+    list-style: none;
+    display: none;
+    gap: 28px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+
+.search-wrapper {
+    display: none;
+}
+
+.navigation-items li a {
+    color: #2A86E5;
+}
+
+.burger-menu {
+    background-color: transparent;
+    border: 0;
+    display: block;
+    padding: 0;
+}
+
+.burger-menu svg {
+    fill: #2A86E5;
+}
+
+@media screen and (min-width:1169.98px) {
+    .search-wrapper {
+        display: block;
+    }
+
+    .navigation-items {
+        display: flex;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .header {
+        padding: 32px 0;
+    }
+}

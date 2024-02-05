@@ -1,0 +1,28 @@
+.social-link-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+}
+
+.social-link-list li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    width: 29px;
+    height: 29px;
+}
+
+.social-link-list li a svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    transition: fill .25s ease-in-out;
+}
+
+.social-link-list li a:hover svg {
+    fill: #2A86E5;
+}

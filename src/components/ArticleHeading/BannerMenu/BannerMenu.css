@@ -1,0 +1,44 @@
+.mobile-banner-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 29px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+
+}
+
+.mobile-banner-menu li {
+    color: transparent;
+    background-image: linear-gradient(90deg, #0DD0BA 0%, #2A86E5 100%);
+    background-clip: text;
+}
+
+.mobile-banner-menu li:not(:last-child):not(:first-child) {
+    margin-bottom: 28px;
+}
+
+.banner-menu-heading {
+    margin-bottom: 12px;
+}
+
+.banner-menu-heading::after {
+    content: "";
+    display: block;
+    border-radius: 40px;
+    background-image: linear-gradient(90deg, #0DD0BA 0%, #2A86E5 100%);
+    width: 24px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+@media screen and (min-width:767.98px) {
+    .mobile-banner-menu {
+        padding-top: 27px;
+        padding-bottom: 52px;
+    }
+}

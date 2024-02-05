@@ -1,0 +1,22 @@
+.toolbar-section {
+    background: linear-gradient(90deg, #0DD0BA 0%, #2A86E5 100%);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolbar-section-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolbar-inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

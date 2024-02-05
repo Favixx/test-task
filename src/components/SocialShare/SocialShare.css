@@ -1,0 +1,56 @@
+.social-widget {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 33%;
+    width: 40px;
+    height: 240px;
+}
+
+.social-widget li {
+    width: 100%;
+    height: 40px;
+}
+
+.social-widget li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 4px 0px;
+}
+
+.social-widget li a svg {
+    fill: white;
+}
+
+.fb-link {
+    background-color: #3A579A;
+}
+
+.twitter-link {
+    background-color: #00ABF0;
+}
+
+.telegram-link {
+    background-color: #24A2E0;
+}
+
+.pinterest-link {
+    background-color: #CD1C1F;
+}
+
+.reddit-link {
+    background-color: #FC461E;
+}
+
+.heart-link {
+    background-color: #F95149;
+}
+
+@media screen and (min-width:1169.98px) {
+    .social-widget {
+        display: block;
+    }
+}

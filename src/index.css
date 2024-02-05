@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #FCFCFC;
+}
+
+.dark {
+  background: #0E1219;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media screen and (min-width:767.98px) and (max-width:1169px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+.dark-logo {
+  color: white;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.img {
+  display: block;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}

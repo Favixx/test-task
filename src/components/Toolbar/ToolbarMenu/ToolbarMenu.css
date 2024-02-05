@@ -1,0 +1,55 @@
+.toolbar {
+    list-style: none;
+    display: none;
+    gap: 24px;
+}
+
+.toolbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbar li:last-child {
+    display: none;
+}
+
+.toolbar li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: white;
+    transition: color .25s ease-in-out;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.toolbar li a svg {
+    fill: white;
+    transition: fill .25s ease-in-out;
+}
+
+.toolbar li a:hover,
+.toolbar li a:active,
+.toolbar li a:focus {
+    color: #2A86E5;
+}
+
+.toolbar li a:hover svg,
+.toolbar li a:active svg,
+.toolbar li a:focus svg {
+    fill: #2A86E5;
+}
+
+@media screen and (min-width:767.98px) {
+    .toolbar {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1169.98px) {
+    .toolbar li:last-child {
+        display: block;
+    }
+}

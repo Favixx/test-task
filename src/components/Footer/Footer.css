@@ -1,0 +1,213 @@
+.footer {
+    padding: 28px 15px;
+    background: transparent;
+}
+
+.footer-background {
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.16);
+    background: linear-gradient(90deg, #0DD0BA 0%, #2A86E5 100%);
+}
+
+.footer-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 30px 28px 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.16);
+    color: #0DD0BA;
+    margin-bottom: 24px;
+}
+
+.footer-card-text {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer-card-text h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(23 / 16);
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.footer-card-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.footer-card-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+}
+
+.footer-card-icons a svg {
+    width: 24px;
+    height: 24px;
+    fill: #0DD0BA;
+    transition: fill .25s ease-in-out;
+}
+
+.footer-card-icons a:hover svg,
+.footer-card-icons a:focus svg,
+.footer-card-icons a:active svg {
+    fill: #2A86E5;
+}
+
+.footer-list-title-tablet {
+    display: none;
+}
+
+.footer-list-title {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-list li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    line-height: calc(20 / 15);
+    transition: color .25s ease-in-out;
+}
+
+.footer-list li a:hover,
+.footer-list li a:focus,
+.footer-list li a:active {
+    color: #2A86E5;
+}
+
+.footer-menu-list-wrapper:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer-menu-list-wrapper:last-child {
+    margin-bottom: 36px;
+}
+
+.footer-list-title {
+    margin-bottom: 12px;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    line-height: calc(17 / 13);
+    letter-spacing: 0.5px;
+}
+
+.dark-footer-card {
+    color: #fff;
+    background-color: #202434;
+}
+
+.dark-footer-card-icons a svg {
+    fill: #fff;
+}
+
+.footer-logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+@media screen and (min-width:767.98px) and (max-width:1169.98px) {
+    .footer-card {
+        padding: 32px 72px;
+    }
+
+    .footer-list-title-desktop {
+        display: none;
+    }
+
+    .footer-list-title-tablet {
+        display: block;
+    }
+
+    .footer-list-title {
+        margin-bottom: 14px;
+    }
+
+}
+
+@media screen and (min-width:767.98px) {
+
+    .footer-logo {
+        letter-spacing: 0.5px;
+        margin-bottom: 30px;
+    }
+
+    .footer-menu-lists {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: space-around;
+        margin-bottom: 32px;
+    }
+
+    .footer-card-text {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu-list-wrapper:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:1169.98px) {
+    .footer-card {
+        width: 351px;
+        height: 394px;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .footer-copyright {
+        text-align: left;
+    }
+
+    .footer-list li {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+
+    .footer-list li::before {
+        content: "";
+        display: block;
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+        background-color: white;
+    }
+}

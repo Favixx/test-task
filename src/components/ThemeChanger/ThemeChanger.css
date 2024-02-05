@@ -1,0 +1,33 @@
+.switcher {
+    width: 54px;
+    height: 29px;
+    padding: 2px 3px;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #fff;
+    transition: all 0.25s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+
+.switcher-dark {
+    background-color: #183A5D;
+}
+
+.switcher-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #183A5D;
+    position: absolute;
+    left: 2px;
+    transition: all 0.25s ease-in-out;
+}
+
+.switcher-dark .switcher-state {
+    left: calc(100% - 27px);
+    background-color: white;
+}

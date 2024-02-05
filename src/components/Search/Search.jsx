@@ -29,6 +29,7 @@ const Search = ({ type, placeholder }) => {
         type="button"
         className="submit-button"
         onClick={() => handleClick()}
+        aria-label="Search Button"
       >
         <SearchIcon />
       </button>

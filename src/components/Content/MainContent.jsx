@@ -11,17 +11,15 @@ const MainContent = () => {
   return (
     <div className="content-container">
       <div className="leftside-content-container">
+        {/* <section> */}
         <Navigation />
         <Info />
+        {/* </section> */}
         <Articles />
       </div>
       <aside className="rightside-content-container">
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
         <img src={AdBar} alt="" width="300" height="600" />
-
-        {/* <div className="ads">
-          {" "}
-          <span>ADS</span> <span>300x600</span>
-        </div> */}
       </aside>
     </div>
   );

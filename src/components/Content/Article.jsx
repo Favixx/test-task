@@ -13,7 +13,7 @@ const Article = () => {
       <div className={`article ${theme === "dark" && "article-dark"}`}>
         <img src={SimilarArticle} alt="Similar Article" />
 
-        <h3 className="title-article">Lorem Ipsum is simply dummy</h3>
+        <h4 className="title-article">Lorem Ipsum is simply dummy</h4>
 
         <div className="info-article">
           <span className={`${theme === "dark" && "dark-info"}`}>

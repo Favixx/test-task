@@ -7,9 +7,9 @@ const Articles = () => {
   const { theme } = useTheme();
   return (
     <div className="atricles-container">
-      <h4 className={`simi-heading ${theme === "dark" && "dark-info"}`}>
+      <h3 className={`simi-heading ${theme === "dark" && "dark-info"}`}>
         Similar articles
-      </h4>
+      </h3>
       <div className="divider-atricles-container" />
 
       <div className="articles">

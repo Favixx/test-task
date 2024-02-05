@@ -18,8 +18,14 @@ const MainContent = () => {
         <Articles />
       </div>
       <aside className="rightside-content-container">
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
-        <img src={AdBar} alt="" width="300" height="600" />
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="advertisement banner"
+        >
+          <img src={AdBar} alt="" width="300" height="600" />
+        </a>
       </aside>
     </div>
   );

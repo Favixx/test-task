@@ -112,6 +112,15 @@
     height: 15px;
 }
 
+.dark-mobile-categories button {
+    color: #fff;
+}
+
+.dark-mobile-categories button svg {
+    fill: #fff;
+}
+
+
 .bar {
     height: 21px;
     width: 1px;

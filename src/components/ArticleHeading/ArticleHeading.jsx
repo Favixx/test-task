@@ -50,7 +50,11 @@ const ArticleHeading = () => {
       </div>
       <div className="article-categories">
         <div className="categories-wrapper">
-          <div className="mobile-categories">
+          <div
+            className={`mobile-categories ${
+              theme === "dark" && "dark-mobile-categories"
+            }`}
+          >
             <button
               onClick={() => setIsBannerMenuOpen(!isBannerMenuOpen)}
               aria-label="Open banner menu button"

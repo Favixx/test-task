@@ -52,9 +52,8 @@ const ArticleHeading = () => {
         <div className="categories-wrapper">
           <div className="mobile-categories">
             <button
-              onClick={() => {
-                setIsBannerMenuOpen(!isBannerMenuOpen);
-              }}
+              onClick={() => setIsBannerMenuOpen(!isBannerMenuOpen)}
+              aria-label="Open banner menu button"
             >
               More info <BurgerIcon />
             </button>

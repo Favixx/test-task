@@ -16,7 +16,6 @@ const MobileMenu = () => {
   const { isMenuOpen, setIsMenuOpen } = useMenu();
   const { theme } = useTheme();
 
-  const handleClose = () => setIsMenuOpen(false);
   useEffect(() => {
     if (isMenuOpen) {
       document.body.classList.add("no-scroll");
@@ -52,7 +51,11 @@ const MobileMenu = () => {
         <a href="/" className={`logo ${theme === "dark" && "dark-logo"}`}>
           logotype
         </a>
-        <button className="close-menu" onClick={handleClose}>
+        <button
+          className="close-menu"
+          aria-label="Close Button"
+          onClick={() => setIsMenuOpen(false)}
+        >
           <CloseIcon />
         </button>
       </div>

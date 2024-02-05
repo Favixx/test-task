@@ -34,8 +34,8 @@ const Navigation = () => {
       <button
         type="button"
         className="burger-menu"
+        aria-label="Open menu button"
         onClick={() => {
-          console.log("click");
           setIsMenuOpen(!isMenuOpen);
         }}
       >

@@ -32,7 +32,7 @@ const MobileMenu = () => {
       transition: { type: "spring", stiffness: 300, damping: 30 },
     },
     close: {
-      x: "-100%",
+      x: "100%",
       opacity: 0,
       transition: { type: "spring", stiffness: 300, damping: 30 },
     },

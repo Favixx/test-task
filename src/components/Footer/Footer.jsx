@@ -24,7 +24,9 @@ const Footer = () => {
             >
               <a
                 href="/"
-                className={`footer-logo ${theme === "dark" && "dark-logo"}`}
+                className={`logo footer-logo ${
+                  theme === "dark" && "dark-logo"
+                }`}
               >
                 logotype
               </a>

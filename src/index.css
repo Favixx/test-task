@@ -36,7 +36,19 @@ body {
   letter-spacing: 0.5px;
 }
 
+.logo:hover,
+.logo:active,
+.logo:focus {
+  color: #000;
+}
+
 .dark-logo {
+  color: white;
+}
+
+.dark-logo:hover,
+.dark-logo:active,
+.dark-logo:focus {
   color: white;
 }
 

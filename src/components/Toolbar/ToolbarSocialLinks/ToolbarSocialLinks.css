@@ -23,6 +23,8 @@
     transition: fill .25s ease-in-out;
 }
 
-.social-link-list li a:hover svg {
+.social-link-list li a:hover svg,
+.social-link-list li a:active svg,
+.social-link-list li a:focus svg {
     fill: #2A86E5;
 }

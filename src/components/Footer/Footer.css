@@ -133,6 +133,8 @@
     margin-bottom: 65px;
 }
 
+.footer-logo:active {}
+
 @media screen and (min-width:767.98px) and (max-width:1169.98px) {
     .footer-card {
         padding: 32px 72px;

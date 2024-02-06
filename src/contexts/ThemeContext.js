@@ -10,8 +10,8 @@ export const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     theme === "dark"
-      ? (document.body.className = "dark")
-      : (document.body.className = "");
+      ? document.body.classList.add("dark")
+      : document.body.classList.remove("dark");
   }, [theme]);
 
   const toggleTheme = () => {
